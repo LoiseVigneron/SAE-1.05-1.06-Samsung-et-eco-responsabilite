@@ -1,0 +1,142 @@
+/* ----------
+ FONT STYLE
+---------- */
+@font-face {
+    font-family: 'SamsungFont';
+    src: url('../font/samsungsharpsans.otf');
+}
+
+@font-face {
+    font-family: 'SamsungFont-Medium';
+    src: url('../font/samsungsharpsans-medium.otf');
+}
+
+
+
+@font-face {
+    font-family: 'SamsungFont-Bold';
+    src: url('../font/samsungsharpsans-bold.otf');
+}
+
+body{
+    font-family: 'SamsungFont';
+}
+
+/* -------
+  MENU 
+------- */
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'SamsungFont-Medium';
+    
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+nav ul li>img {
+    padding-top: 6px ;
+}
+
+nav ul li {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+    list-style: none;  
+    /* padding: 10px; */
+    /* margin-inline: 4em; */
+}
+
+nav ul li a:hover {
+    border-radius: 20px 20px 20px 20px;
+    border: 1px;
+    padding-inline: 15% ;
+    border: 3px;
+    border-color: black;
+    color: white;
+    background-color: black;
+    position: relative;
+    padding: 10px 10px;
+}
+
+
+/* ----------
+CORPS
+--------- */
+.flèche {
+    height: 50px;
+    position:sticky;
+    top: 0;
+    padding-right: 2px;
+    margin-right: 2px;
+    left: 100%;
+}
+
+header, footer{
+    background: linear-gradient(to left,#FFB247, #00C1AF) ;
+    /* couleurs officielles trouvées sur le site  */
+    border-radius: 5px;
+    padding-left: 2em;
+}
+
+header h1 {
+    font-family: 'SamsungFont-Bold';
+    font-size: 3em;
+    padding-bottom: 5px;
+}
+
+
+.fond{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-inline: 1em;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    text-align: justify;
+    margin-bottom: 10px;
+    line-height: 170%;
+}
+
+.fond h2 {
+    font-family: 'SamsungFont-Bold';
+    font-size: 2em;
+    font-style: italic;
+}
+
+footer h3 {
+    font-family: 'SamsungFont-Bold';
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-bottom: 1em;
+    padding-bottom: 3px;
+}
+
+footer img {
+    max-height: 30px;
+    vertical-align: middle;
+    margin: 2px;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color:mediumblue;
+}
+
+footer a:last-of-type{
+    font-size: 10px;
+}

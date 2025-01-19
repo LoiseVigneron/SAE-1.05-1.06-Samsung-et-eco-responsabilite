@@ -1,0 +1,42 @@
+img {
+    max-width: 300px;
+    border-radius: 5%;
+    padding-left: 2px;
+    margin-right: 10px;
+}
+
+.cadre {
+    text-align: justify;
+    line-height: 170%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 1em;
+}
+
+.cadre:nth-last-of-type(odd){
+    border-color: #FFB247;
+    background-color:#ffedd4;
+}
+
+.cadre:nth-last-of-type(2n+2){
+    border-color: #00C1AF;
+    background-color: #cae8e4;
+}
+
+.cadre h2 {
+    font-family: 'SamsungFont-Bold';
+    font-size: 2em;
+    text-align: center;
+}
+
+form ul li{
+    list-style: none;
+}
+/* form ul li:last-of-type{
+    display: flex;
+    justify-content:flex-start;
+} */

@@ -1,0 +1,21 @@
+/* //Corps// */
+
+header, footer{
+    background: linear-gradient(to left,#FFB247, #00C1AF) ;
+    /* couleurs officielles trouvées sur le site  */
+    border-radius: 5px;
+    padding-left: 2em;
+}
+
+header h1 {
+    font-family: 'SamsungFont-Bold';
+    font-size: 3em;
+    padding-bottom: 7px;
+}
+
+form ul li{
+    list-style: none;
+}
+
+
+

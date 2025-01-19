@@ -1,0 +1,48 @@
+/* ----------
+ FONT STYLE
+---------- */
+@font-face {
+    font-family: 'SamsungFont';
+    src: url('../font/samsungsharpsans.otf');
+}
+
+@font-face {
+    font-family: 'SamsungFont-Medium';
+    src: url('../font/samsungsharpsans-medium.otf');
+}
+
+body{
+    font-family: 'SamsungFont';
+}
+
+/* --------
+CORPS
+-------- */
+img {
+    max-height: 50px;
+}
+
+section {
+    background: linear-gradient(to left,#FFB247, #00C1AF) ;
+    /* couleurs officielles trouvées sur le site  */
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5em;
+    font-family: 'SamsungFont-Medium';
+}
+
+div {
+    background-color: black;
+    color: white;
+    line-height: 170%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+div a {
+    color : white
+}
+
+div a:hover{
+    color: #00C1AF;
+}

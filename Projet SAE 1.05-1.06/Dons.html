@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Dons</title>
+        <link rel="shortcut icon" href="./img/logo_page.png">
+        <link rel="stylesheet" href="css/commun.css">
+        <link rel="stylesheet" href="css/Dons.css">
+    </head>
+    <body>
+        
+            <nav>
+               <ul>
+                <li>
+                    <img src="./img/logo_samsung.png" alt="logo_samsung" height="30">
+                </li>
+                <li>
+                    <a href="Accueil.html">Accueil</a>
+                    <!-- <button onclick="window.location.href='Accueil.html';">Accueil</button> -->
+                </li>
+                <li>
+                    <a href="./Location.html">Location</a>
+                </li>
+                <li>
+                     <a href="./Offre.html">Offres</a>
+                </li>
+                <li>
+                    <a href="./Dons.html">Dons</a>
+                </li>
+             </ul>
+            </nav>
+        
+        <header>
+            <h1>
+                Donner une nouvelle vie à vos vélos
+            </h1>
+        </header>
+        <form action="Validation.html" class="fond" >
+        <h2><em>Formulaire de donnation</em></h2>
+        <ul>
+            <li>
+                <label for="typeVelo">Type de vélo :</label>
+                <select name="typeVelo" id="typeVelo">
+                    <option value="">--Choisir le type de vélo--</option>
+                    <option value="Electrique">Electrique</option>
+                    <option value="Sport">Sport</option>
+                    <option value="De ville">De ville</option>
+                </select>
+            </li>
+            <li>
+                <label for="dateDepot">Début du dépot  :</label>
+                <input type="datetime-local" name="dateDepot" id="dateDepot">
+            </li>
+            <li> 
+                <label for="etatVelo">Etat du vélo :</label>
+                <select name="etatVelo" id="etatVelo">
+                    <option value="">--Choisir l'état du vélo--</option>
+                    <option value="Trés bonne état">Trés bonne état</option>
+                    <option value="Bonne état">Bonne état</option>
+                    <option value="Abimé">Abimé</option>
+                </select>
+            </li>
+            <li>
+                <label for="img">Importer une photo du vélo à donner :</label>
+                <input type="file" accept=".pnj, .jpg, .svg, .webp" name="img" id="img"/>
+            </li>
+            
+            <li>
+                <label for="IDpro">Identifiant professionnel :</label>
+                <input type="text" id="IDpro" name="IDpro" placeholder="Votre identifiant" maxlength="40">
+            </li>
+            <li>
+                <label for="password">Mot de passe :</label>
+                <input type="password" name="password" id="password">
+            </li>
+            <li>
+                <input type="submit" name="valider" id="valider" value="Valider">
+            </li>
+        </ul>
+        
+        </form>
+        <footer>
+            <h3>Pour plus de renseignements</h3>
+            
+            <a href="mailto:contact@samsung-ecoresponsable.com"><img src="./img/mail.png" alt="pictogramme d'un mail"></a><span>&#160;</span>
+            <a href="mailto:contact@samsung-ecoresponsable.com"> contact@samsung-ecoresponsable.com</a>
+            <br>
+            <a href="tel:+33198765432"><img src="./img/téléphone.png" alt="pictogramme d'un téléphone"></a><span>&#160;</span>
+            <a href="tel:+330198765432">+33 (0)1 98 76 54 32</a>
+            <br>
+            
+            <a href="https://www.facebook.com/SamsungFrance/?locale=fr_FR"><img src="./img/Facebook.png" alt="logo facebook"></a>
+            <a href="https://x.com/samsungfr"><img src="./img/X.png" alt="logo X"></a> 
+            <a href="https://www.instagram.com/samsungfrance/"><img src="./img/Insta.png" alt="logo Instagram"></a>
+            <span>&#160;</span>
+            <a href="https://www.youtube.com/user/SamsungMobileFrance"><img src="./img/YouTube.png" alt="logo youtube"></a>
+            <span>&#160;</span>
+            <a href="https://www.linkedin.com/company/samsung-electronics-france"><img src="./img/Linkedin.png" alt="logo LinkedIn"></a>
+            <br>
+            <a href="https://www.samsung.com/fr/">Site Officiel</a>
+                <br>
+            <a href="./Mentions.html">Mentions légales</a>
+        </footer>
+        
+
+    </body>
+</html>

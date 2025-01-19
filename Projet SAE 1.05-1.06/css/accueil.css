@@ -1,0 +1,27 @@
+/* ----------
+CORPS
+---------- */
+section{
+    text-align: justify;
+    line-height: 170%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carte {
+    max-width: 250px;
+    height: auto;
+    margin-right: 1.5em;
+    border-radius: 5%;
+}
+
+#stand {
+    max-width: 400px;
+    height: auto;   
+    border-radius: 5%;
+    margin-left: 10em;
+}
+
+
+

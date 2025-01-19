@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <title>Location</title>
+        <link rel="shortcut icon" href="./img/logo_page.png">
+        <link href="./css/commun.css" rel="stylesheet">
+        <link href="./css/location.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <nav>
+            <!-- Liste des onglets :  -->
+           <ul>
+            <li>
+                <img src="./img/logo_samsung.png" alt="logo_samsung" height="30">
+            </li>
+            <li>
+                <a href="./Accueil.html"> Accueil</a>
+            </li>
+            <li>
+                <a href="./Location.html">Location</a>
+            </li>
+            <li>
+                <a href="./Offre.html">Offres</a>
+            </li>
+            <li>
+                <a href="./Dons.html">Dons</a>
+            </li>
+           </ul>
+
+           <!-- <button onclick="window.location.href='Accueil.html';">Accueil</button> -->
+        </nav>
+
+        <header>
+            <h1>Location</h1>
+        </header>
+
+        <img class="flèche" src="./img/flèche.png" alt="Flèche directionnelle">
+
+        <main>
+            <div class="fond">
+              <h2>Horaires</h2>
+                <p>Lundi : 8h00-12h00 / 13h00-19h00</p>
+                <p>Mardi : 8h00-12h00 / 13h00-19h00</p>
+                <p>Mercredi : 8h00-12h00 / 13h00-19h00</p>
+                <p>Jeudi : 8h00-12h00 / 13h00-19h00</p>
+                <p>Vendredi : 8h00-12h00 / 13h00-19h00</p>
+                <p>Samedi : 8h00-12h00</p>
+            </div>
+
+            <section class="cadre">
+                <div><img src="./img/velo-ville.jpg" alt="Vélo de ville"></div>
+                <div>
+                    <h2>Vélos de ville</h2>
+                    <p>Déplacez-vous avec style et confort jusqu'à votre bureau, grâce à nos vélos de ville. Avec leur design élégant et leurs équipements pratiques (panier, porte-bagages, éclairage), ils sont parfaits pour venir jusqu'au travail, mais aussi pour faire vos courses ou simplement profiter d'une promenade en fin de journée. Louez un vélo de ville et redécouvrez votre quotidien de manière écologique et agréable !</p>
+                </div>    
+            </section>
+
+            <section class="cadre">
+                <div><img src="./img/velo-de-route.jpg" alt="Vélo de route"></div>
+                <div>
+                    <h2>Vélos de route</h2>
+                    <p>Pour nos collaborateurs qui ont de longues distances à parcourir le matin, nos vélos de route sont faits pour vous. Avec leur cadre léger et aérodynamique, ils garantissent une excellente fluidité et une grande réactivité à chaque coup de pédale. Louez un vélo de route, faites un geste pour la planète !</p>
+                </div>
+            </section>
+
+            <section class="cadre">
+                <div><img src="./img/velo_sport.jpg" alt="Vélo de sport"></div>
+                <div>
+                    <h2>Vélos de sport</h2>                
+                    <p>Vivez l'adrénaline avec nos vélos de sport, réservés à nos passionnés de vitesse et de performance. Que vous soyez un cycliste expérimenté ou amateur de sensations fortes, nos vélos de sport vous offre la rapidité, la légèreté et la précision dont vous avez besoin pour repousser vos limites en dehors du travail. Louez un vélo de sport et redécouvrez la passion du cyclisme !</p>
+                </div>
+            </section>
+
+            <section class="cadre">
+                <div><img src="./img/velo_elec.jpg" alt="Vélo électrique"></div>
+                <div>
+                    <h2>Vélos électriques</h2>
+                    <p>Optez pour la liberté et la facilité avec nos vélos électriques ! Profitez de l'assistance moteur qui vous permettra de rouler sans effort, jusqu'à votre poste de travail. Le confort, la performance et l'écologie à portée de main.</p>
+                </div>
+            </section>
+
+            <form class="fond" action="Validation.html" >
+                <h2>Formulaire de location</h2>
+                <ul>
+                    <li>
+                        <label for="typeVelo">Type de vélo :</label>
+                        <select name="typeVelo" id="typeVelo">
+                            <option value="">--Choisir le type de vélo--</option>
+                            <option value="Electrique">Electrique</option>
+                            <option value="Sport">Sport</option>
+                            <option value="De ville">De ville</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="debutPret">Début du prêt :</label>
+                        <input type="datetime-local" name="debutPret" id="debutPret">
+                    </li>
+                    <li>
+                        <label for="finPret">Date du retour :</label>
+                        <input type="datetime-local" name="finPret" id="finPret">
+                    </li>
+
+                    <li>
+                        <label for="IDpro">Identifiant professionnel :</label>
+                        <input type="text" id="IDpro" name="IDpro" placeholder="Votre identifiant" maxlength="40">
+                    </li>
+                    <li>
+                        <label for="password">Mot de passe :</label>
+                        <input type="password" name="password" id="password" placeholder="Entrez le mot de passe">
+                    </li>
+                    <li>
+                        <input type="submit" name="valider" id="valider" value="Valider">
+                    </li>
+                </ul>
+            </form>
+            
+
+        </main>
+        <footer>
+            <h3>Contacts</h3>
+            
+            <a href="mailto:contact@samsung-ecoresponsable.com"><img src="./img/mail.png" alt="pictogramme d'un mail"></a><span>&#160;</span>
+            <a href="mailto:contact@samsung-ecoresponsable.com"> contact@samsung-ecoresponsable.com</a>
+            <br>
+            <a href="tel:+33198765432"><img src="./img/téléphone.png" alt="pictogramme d'un téléphone"></a><span>&#160;</span>
+            <a href="tel:+33198765432">+33 (0)1 98 76 54 32</a>
+            <br>
+            
+            <a href="https://www.facebook.com/SamsungFrance/?locale=fr_FR"><img src="./img/Facebook.png" alt="logo facebook"></a>
+            <a href="https://x.com/samsungfr"><img src="./img/X.png" alt="logo X"></a> 
+            <a href="https://www.instagram.com/samsungfrance/"><img src="./img/Insta.png" alt="logo Instagram"></a>
+            <span>&#160;</span>
+            <a href="https://www.youtube.com/user/SamsungMobileFrance"><img src="./img/YouTube.png" alt="logo youtube"></a>
+            <span>&#160;</span>
+            <a href="https://www.linkedin.com/company/samsung-electronics-france"><img src="./img/Linkedin.png" alt="logo LinkedIn"></a>
+            <br>
+            <a href="https://www.samsung.com/fr/">Site Officiel</a>
+                <br>
+            <a href="./Mentions.html">Mentions légales</a>
+            
+        </footer>
+    </body>
+    </html>

@@ -1,0 +1,17 @@
+div {
+    text-align: justify;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+div h2 {
+    font-family:'SamsungFont-Bold';
+}
+
+div a {
+    color: black;
+}
+
+div a:hover {
+    color: mediumblue;
+}
